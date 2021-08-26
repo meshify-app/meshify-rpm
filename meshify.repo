@@ -1,0 +1,6 @@
+[example-repo]
+name=Meshify VPN Service Repo
+baseurl=https://meshify-app.github.io/meshify-rpm
+enabled=1
+gpgcheck=1
+gpgkey=https://meshify-app.github.io/meshify-rpm/public.key
