@@ -8,10 +8,10 @@ You can use this repo to install the meshify-client for redhat/fedora linux dist
 ```shell
 
 # Install wireguard if not already installed
-sudo yum install wireguard
+sudo yum install wireguard resolvconf
 
 # Install meshify-client
-$ sudo yum-config-manager --add-repo https://meshify-app.github.io/meshify-rpm/meshify.repo
+$ sudo yum-config-manager --add-repo https://rpm.meshify.app/meshify.repo
 $ sudo yum install meshify
 
 # Update the config
